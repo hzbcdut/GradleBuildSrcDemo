@@ -1,7 +1,9 @@
+import com.learn.plugin.CustomPlugin
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
+apply plugin:CustomPlugin
 
 android {
     compileSdk 32
